@@ -5,7 +5,7 @@ class TV:
        self._estado=estado
        self._canal=1
        self._precio=500
-       self._volumen=0
+       self._volumen=1
        TV.numtv+=1
     
     def getMarca(self):
