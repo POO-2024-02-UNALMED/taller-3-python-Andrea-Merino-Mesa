@@ -35,10 +35,10 @@ class TV:
         control.setTv(self)   
     
     @classmethod
-    def getnumTV(cls):
+    def getNumTV(cls):
         return cls.numtv
     @classmethod
-    def setnumTV(cls,num):
+    def setNumTV(cls,num):
         cls.numtv=num
     
     def turnOn(self):
