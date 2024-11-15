@@ -1,12 +1,12 @@
 class TV:
     numtv=0
-    def _init_ (self,marca,estado):
+    def __init__ (self,marca,estado):
        self._marca=marca
        self._estado=estado
        self._canal=1
        self._precio=500
        self._volumen=0
-       numtv+=1
+       TV.numtv+=1
     
     def getMarca(self):
         return self._marca
